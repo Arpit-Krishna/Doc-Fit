@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-import Landingpage from './Components/Landingpage'
-import bg from './Components/assets/background.svg'
-import Login from './Components/Login';
-import Signup from "./Components/Signup";
+import Landingpage from './components/LandingPage'
+import bg from './components/assets/background.svg'
+import Login from './components/Login';
+import Signup from "./components/Signup";
 function App() {
   return (
     <div className="App relative h-screen">
