@@ -1,6 +1,10 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 export default function Navbar() {
+    const navigate = useNavigate()
+    const login = () => {
+        navigate('/login')
+    }
     return (
         <div>
             <div className='flex justify-between p-7'>
@@ -31,7 +35,7 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 border px-4 rounded-xl border-blue-900 hover:bg-blue-700 hover:text-white hover:bg-clip-padding '>
-                        <button>
+                        <button onClick={login}>
                             LOGIN
                         </button>
                     </div>
