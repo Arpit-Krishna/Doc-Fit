@@ -16,15 +16,15 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
-                        <a href='/'>
-                            NEWS
+                        <a href='/cart'>
+                            CART
                         </a>
                     </div>
-                    <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
+                    {/* <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
                         <a href='/'>
                             PROJECT
                         </a>
-                    </div>
+                    </div> */}
                     <div className='text-lg font-semibold bg-clip-text text-transparent bg-blue-950 hover:scale-110'>
                         <a href='/'>
                             ABOUT US
