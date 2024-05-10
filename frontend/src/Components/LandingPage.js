@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
-import ProductList from './ProductList'
+import Navbar from "./Navbar"
+import ProductList from "./ProductList"
+import HRecord from './HRecord'
 
-
-export default function Landingpage() {
+export default function LandingPage() {
     return (
         <div className='h-screen'>
             <Navbar />
@@ -18,6 +18,7 @@ export default function Landingpage() {
                         </div>
                     </div>
                     <ProductList/>
+                    <HRecord/>
                 </div>
             </div>
         </div>

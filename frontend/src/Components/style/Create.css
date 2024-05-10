@@ -1,0 +1,95 @@
+
+section {
+    margin-bottom: 50px;
+    background-color: transparent;
+    padding: 20px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #333;
+    font-size: 12px;
+}
+
+/* Add some styles for the form */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form label,
+form input,
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#button-register {
+    width: 40%;
+    gap: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*
+- S
+* #button-connect {
+    width: 40%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+} */
+
+#button-register:hover {
+    background-color: #555;
+}

@@ -8,13 +8,17 @@ export default function Login() {
             <div className='h-screen flex justify-center items-center -mt-16'>
                 <form className='backdrop-blur bg-cyan-700/50 p-4 rounded-xl w-96'>
                     <div className='text-4xl flex justify-center w-full m-2'>Welcome Back!</div>
-                    <div className='flex justify-center text-xl text-gray-300 m-2'>Login to access your account</div>
-                    <label className='flex flex-col w-full p-1' >
-                        <p className='text-xl flex justify-start text-white'>Email:</p>
-                        <input type='text' className='w-full rounded-md h-12 border border-gray-600 placeholder:text-gray-600 p-2' placeholder='Enter Email' />
+                    <div className='flex justify-center text-xl text-gray-300 m-5'>Login to access your account</div>
+                    <label className='flex flex-col w-full p-1 -my-5' >
+                        {/* <p className='text-xl flex justify-start text-white'>Health ID:</p> */}
+                        <input type='number' className='w-full rounded-md h-12 border border-gray-600 placeholder:text-gray-600 p-2' placeholder='Enter 8 digit Health ID ' />
                     </label>
-                    <label className='flex flex-col w-full p-1'>
-                        <p className='text-xl flex justify-start text-white'>Password:</p>
+                    {/* <label className='flex flex-col w-full p-1 -my-5'>
+                         <p className='text-xl flex justify-start text-white'>Phone Number:</p>
+                        <input type='number' className='w-full rounded-md h-12 border border-gray-600 placeholder:text-gray-600 p-2' placeholder='Enter phone' />
+                    </label> */}
+                    <label className='flex flex-col w-full p-1 -my-5'>
+                        {/* <p className='text-xl flex justify-start text-white'>Password:</p> */}
                         <input type='password' className='w-full rounded-md h-12 border border-gray-600 placeholder:text-gray-600 p-2' placeholder='Enter password' />
                     </label>
                     <div className='flex justify-center'>
