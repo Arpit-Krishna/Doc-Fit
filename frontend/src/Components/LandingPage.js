@@ -38,8 +38,8 @@ export default function Landingpage() {
                     <button className='border h-10 w-28 rounded-3xl bg-gradient-to-br from-cyan-700 to-cyan-400 active:from-cyan-400 active:to-cyan-700'>Learn More</button>
                 </div>
             </div>
-            <div className='fixed bottom-0 right-4 mb-4 ml-4 text-white font-bold py-2 px-4 rounded'>
-                <button className='border bg-green-800 rounded-full w-16 h-16 text-3xl' onClick={gtform}>+</button>
+            <div className='fixed bottom-0 right-4 text-white font-bold py-2 px-4 rounded'>
+                <button className='border mb-4 ml-4 bg-green-800 rounded-full w-16 h-16 text-3xl' onClick={gtform}>+</button>
             </div>
         </div>
     )
